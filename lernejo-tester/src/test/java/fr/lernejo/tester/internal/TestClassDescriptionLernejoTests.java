@@ -25,5 +25,6 @@ public class TestClassDescriptionLernejoTests
         {
             throw new AssertionError("Doit avoir 2 classes méthodes");
         }
+
     }
 }
