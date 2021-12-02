@@ -12,7 +12,6 @@ public class TestClassDescriptionLernejoTests
     {
         final TestClassDescription testClassDescription = new TestClassDescription(SomeLernejoTests.class);
         final List<Method> methodes = testClassDescription.listTestMethods();
-<<<<<<< HEAD
 
         if(methodes.stream().noneMatch(method -> method.getName().equals("ok")))
         {
@@ -26,7 +25,6 @@ public class TestClassDescriptionLernejoTests
         {
             throw new AssertionError("Doit avoir 2 classes méthodes");
         }
-=======
->>>>>>> 08ee9afc1bc598a02008938701c7a43eeccd62e2
+
     }
 }
